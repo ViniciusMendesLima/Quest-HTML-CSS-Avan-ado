@@ -79,13 +79,13 @@
 @media(max-width: 425px){
 
        .container{
-        margin: 5rem;
+        padding: 3rem 0;
        } 
-    .footer .social a{
+    .footer .social li{
         margin: 0 7px;
     }
 
-    .footer .social a i{
+    .footer .social li i{
         width: 30px;
         font-size: 1.7rem;
         padding: 6px;
@@ -95,7 +95,7 @@
 @media(max-height:765px){
     .container{
         height: 100vh;
-        padding-top: 5rem;
+        
     }
 }
 
