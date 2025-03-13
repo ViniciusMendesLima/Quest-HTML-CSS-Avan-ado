@@ -15,7 +15,6 @@
     body{
         display: flex;
         flex-direction: column;
-        padding: 30px;
         background: url(../images/bg-mobile.svg) top no-repeat;
         background-size: 100%;
         background-color: var(--primary-1);
