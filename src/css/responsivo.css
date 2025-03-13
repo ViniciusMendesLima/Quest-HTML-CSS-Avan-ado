@@ -1,17 +1,17 @@
 @media(max-width: 1160px){
-.container img{
+    .content img{
     max-width: 500px;
 }
 }
 
 @media(max-width: 945px){
-    .container img{
+    .content img{
         max-width: 400px;
     }
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 875px){
     body{
         display: flex;
         flex-direction: column;
@@ -29,39 +29,39 @@
     .header .logo{
         margin-top: 0;
     }
-    .container{
+    .content{
         flex-direction: column;
         align-items: center;
         max-height: 100%;
     }
 
-    .container img{
+    .content img{
         max-width: 90vw;
         margin-bottom: 60px;
     }
 
-    .container .description {
+    .content .description {
         margin: 0;
         text-align: center;
         align-items: center;
     }
 
-    .container .description h1{
+    .content .description h1{
         font-size: 2.5rem;
         line-height: 4rem;
         font-weight: 600;
     }
 
-    .container .description .register{
+    .content .description .register{
         margin-top: 1.5rem;
         margin-bottom: 7rem;
     }
 
-    .container .description  p{
+    .content .description  p{
         font-size: 1.8rem;
     }
 
-    .container .description .register a{
+    .content .description .register a{
         padding: 1rem 8rem;
         margin-top: 500px;
     }
